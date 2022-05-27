@@ -1,0 +1,257 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Globales */
+
+body{
+width: 100%;
+height: 900px;
+padding: 0;
+margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  /* font-family: 'Poppins', sans-serif; */
+}
+
+li{
+  list-style: none;
+  
+}
+
+
+/* navegacion */
+
+.navbar{
+  background-color: #fff ;
+  padding: 20px 0px;
+}
+
+
+.navbar-nav li:hover > ul.dropdown-menu{
+  display: block;
+  
+}
+
+.navbar > .container-fluid{
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  margin: auto;
+}
+
+.navbar-brand img {
+  margin-left: 1rem;
+}
+
+/* .nav-item a:hover{
+  background-color: black;
+  border-radius: 5rem;
+  color: #fff;
+}  */
+
+
+.dropdown-submenu{
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu{
+  top: 0;
+  margin-top: -5px;
+  left: 100%;
+}
+
+.dropdown-submenu > a:hover::after {
+text-decoration: underline;
+transform: rotate(-90deg);
+}
+
+
+
+
+/* modificar carrusel */
+
+.boton {
+border-radius:5rem;
+font-size:1rem;
+background: #fff;
+}
+
+.negro{
+  background: black;
+}
+
+
+.posicion-heladera {
+position: relative;
+bottom: 230px;
+right: 300px;
+}
+
+.posicion-estudiantes{
+position: relative;
+bottom: 260px;
+}
+
+.posicion-neo{
+  position: relative;
+  bottom: 230px;
+  left: 300px;
+}
+
+.posicion-celular{
+  position: relative;
+  bottom: 400px;
+  left: 100px;
+}
+
+/*------------PARTE 2 HEADER---------------*/
+
+.heron-la {
+  align-content: space-between;
+  font-size: 20px;
+}
+
+
+.heron-la a {
+  text-decoration: none;
+  color: #000;
+  align-content: space-around;
+  padding: 0 20px;
+}
+
+.heron-la a:hover {
+  background-color: #fff;
+}
+
+
+/*NAV 2 CON IMG*/
+
+.alt a {
+  text-decoration: none;
+  color: #000;
+  align-content: space-between;
+  padding: 0 20px;
+  font-size: 1.3rem;
+}
+
+.alt a:hover {
+  background-color: #fff;
+}
+
+.imagen {
+  text-align: center;
+  margin-top: 2rem;
+  margin-left: 18rem;
+  max-width: 800px;
+}
+
+/*boton*/
+
+.botn {
+  cursor: pointer;
+}
+
+/* explorar */
+.explorar {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+.explorar a{
+  display: flex;
+  align-content: center;
+  padding: 2rem;
+}
+
+/*------FOOTER-------*/
+
+* {
+  font-family: sans-serif, ;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*INPUT U BOTON*/
+h1 {
+
+  font-size: 4rem;
+  color: #000;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.div-trap input {
+  width: 40rem;
+  height: 4rem;
+  background-color: white;
+  border-radius: 5rem;
+  font-size: 1rem;
+  align-items: center;
+  padding: 2rem;
+  margin-left: 21rem;
+  margin-top: 2rem;
+}
+
+.div-trap>i {
+  font-size: 3rem;
+  color: #000;
+  margin-top: 30px;
+  padding-right: 5rem;
+}
+
+.boton-seve {
+  align-items: center;
+  margin-left: 19rem;
+  margin-top: 1rem;
+}
+
+.boton {
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 2rem;
+
+}
+
+.boton-br {
+  margin-left: 12rem;
+  margin-top: 10px;
+  border-radius: 1rem;
+  background: none;
+}
+
+.boton-alt {
+  margin-left: 4rem;
+  margin-top: 10px;
+  border-radius: 2rem;
+}
+
+p {
+  font-size: 0.8rem;
+  padding-top: 6rem;
+}
+
+/*-------NAV DEL FOOTER FINAL--------*/
+.ayuda {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 5rem;
+  margin-top: 2rem;
+  font-size: 0.8rem;
+}
+
+.title {
+  text-decoration: none;
+  color: #000;
+}
